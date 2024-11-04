@@ -45,6 +45,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 */
 
+/*Part 1*/
 //Check if all numbers are divisible by 5
 const is5DivisibleBy5 = (n1 % 5);
 console.log(is5DivisibleBy5);
@@ -70,3 +71,11 @@ console.log(resultMultipliedByN3);
 //Find the remainder of dividing the result by the fourth number.
 const findRemainder = resultMultipliedByN3 % n4;
 console.log(findRemainder);
+
+/*Part 2*/
+const tripDistance = 1500;
+const mpg_55mph = 30;
+const mpg_60mph = 28;
+const mpg_75mph = 23;
+const fuel_budget = 175;
+const fuel_avg_gal = 3;
